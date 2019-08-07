@@ -117,6 +117,8 @@ body {
 ul, 
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
  
 a {
@@ -128,6 +130,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
+    margin: 0;
 }
  
 h3, 
@@ -196,7 +199,6 @@ header figure {
     height: 1px;
     margin: 10px 0 20px 0;
     width: 100%;
-    
 }
 
 header nav {
@@ -578,13 +580,13 @@ aside .form {
         display: none;
      }
 
+     /* Hero Area */
+
      .hero-area h1 {
         font-size: 3em;
         line-height: 1;
         margin: 0;
      }
-
-     /* Hero Area */
 
      /* Aside */
      aside .content-wrapper {
@@ -616,6 +618,10 @@ aside .form {
 
      .features .features-item-description {
         width: 50%;
+     }
+
+     .features i {
+        margin-bottom: 30px;
      }
 
      /* Reviews */
@@ -664,9 +670,15 @@ aside .form {
         line-height: 1.285;
      }
 
+     footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
+     }
+
      footer .copyright {
         width: 100%;
      }
+     
     /* ======================================================================
     About Page
     ========================================================================= */
